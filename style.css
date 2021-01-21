@@ -618,11 +618,11 @@ img {
 }
 
 
-@media only screen and (max-width:400px) {
-   
+@media only screen and (max-width:375px) {
+
     header,
     header.sticky {
-        padding: 40px 40px;
+        padding: 20px 40px;
     }
 
     .banner {
@@ -634,7 +634,7 @@ img {
     }
 
     .section {
-        padding:100px 50px;
+        display: 100%;
     }
 
     .banner {
@@ -642,9 +642,14 @@ img {
     }
 
     .banner h2 {
-        font-size: 1.5em;
-        padding: 150px 15px 30px;
+        font-size: 1em;
+        padding: 200px 15px 30px;
        
+    }
+    .banner h3 {
+        font-size: 1em;
+        margin-left: 20px;
+        padding-top: 20px;
     }
 
 }
