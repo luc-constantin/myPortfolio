@@ -1,5 +1,6 @@
 # My Portfolio 
-## You can see the project [here](https://luc-constantin.github.io/myPortfolio/ "Luc Constantin's Portfolio)
+## You can see the project [here](https://luc-constantin.github.io/myPortfolio/ "Luc Constantin's Portfolio")
+
 ## Hard-coded Portfolio
 ### In this project I used the following: HTML5, CSS3 and JavaScript and bits of Bootstrap
 ## HTML
