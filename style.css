@@ -69,7 +69,7 @@ section {
   
   /* The typing effect */
   @keyframes typing {
-    from { width: 25%}
+    from { width: 0%}
     to { width: 100% }
   }
   
@@ -89,14 +89,14 @@ section {
     letter-spacing: 0.1em;
     -webkit-box-reflect: below 2px linear-gradient (transparent, #67d48c);
     animation: 
-      typing 3.5s steps(30, end),
+      typing 3.5s steps(20, end),
       blink-caret .5s step-end infinite;
     
   }
   
   /* The typing effect */
   @keyframes typing {
-    from { width: 0 }
+    from { width: 0% }
     to { width: 100% }
   }
   
