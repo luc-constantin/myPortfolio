@@ -55,10 +55,11 @@ section {
     color: #fff;
     font-family: monospace;
     overflow: hidden; /* content is not revealed until the animation */
-    border-right: 0.2em solid #83d8a6;  /* cursor */
+    border-right: .20em solid #83d8a6;  /* cursor */
     white-space: nowrap; 
     margin: 0 auto; 
-    letter-spacing: 0.1em;
+    letter-spacing: .15em;
+    -webkit-box-reflect: below 5px linear-gradient (transparent, #67d48c);
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
@@ -469,7 +470,7 @@ img {
         z-index: 999;
     }
     
-       .menu.active {
+    .menu.active {
         left: 0;
     }
 
@@ -572,6 +573,7 @@ img {
         justify-content: center;
         align-items: center;
         font-size: 24px;
+
     }
 
     .contactInfo .contactInfoBx .mail a:hover {
@@ -597,18 +599,7 @@ img {
         background-repeat: no-repeat;
         background-size: 30px;
         cursor: pointer;
-    } 
-    .formBx form input[type="submit"] {
-        max-width: 100px;
-        background: #222;
-        cursor: pointer;
-        color: #83d8a6;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 16px;
-        font-weight: 700;
-        box-shadow: 0 1px 5px rgb(202, 202, 202);
-    }    
+    }     
 }
 
 @media (max-width: 600px) {
@@ -624,32 +615,18 @@ img {
     .menu.active {
         left: 0;
     }
-    .formBx form input[type="submit"] {
-        max-width: 100px;
-        background: #222;
-        cursor: pointer;
-        color: #83d8a6;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 16px;
-        font-weight: 700;
-        box-shadow: 0 1px 5px rgb(202, 202, 202);
-    } 
-    .contactInfo .contactInfoBx .mail a{
-        text-align: center;
-    }  
 }
 
 
 @media only screen and (max-width:400px) {
-
+   
     header,
     header.sticky {
-        padding: 20px 10px 20px 10px;
+        padding: 40px 40px;
     }
 
     .banner {
-        padding: 100px 20px 500px;
+        padding: 150px 20px 100px;
     }
 
     .menu.active {
@@ -657,7 +634,7 @@ img {
     }
 
     .section {
-        padding:10px 50px;
+        padding:100px 50px;
     }
 
     .banner {
@@ -666,21 +643,11 @@ img {
 
     .banner h2 {
         font-size: 1.5em;
-        padding: 150px 10px 20px;
+        padding: 150px 15px 30px;
        
     }
 
-    .contactInfo .contactInfoBx .mail a{
-        text-align: center;
-    }
-
 }
-
-
-
-
-
-
 
 
 /* back to top */
