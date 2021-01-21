@@ -52,14 +52,42 @@ section {
 }
 
 .typewriter h3 {
+    padding-top: 50px!important;
+    color: #83d8a6;
+    font-family: monospace;
+    overflow: hidden; /* content is not revealed until the animation */
+    /* border-right: 0.2em solid #83d8a6;  cursor */
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: 0.1em;
+    -webkit-box-reflect: below 2px linear-gradient (transparent, #67d48c);
+    animation: 
+      typing 3.5s steps(10, end),
+      blink-caret .5s step-end infinite;
+    
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 25%}
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #83d8a6 }
+  }
+
+  .typewriter h4 {
     color: #fff;
     font-family: monospace;
     overflow: hidden; /* content is not revealed until the animation */
-    border-right: .20em solid #83d8a6;  /* cursor */
+    border-right: 0.2em solid #83d8a6;  /* cursor */
     white-space: nowrap; 
     margin: 0 auto; 
-    letter-spacing: .15em;
-    -webkit-box-reflect: below 5px linear-gradient (transparent, #67d48c);
+    letter-spacing: 0.1em;
+    -webkit-box-reflect: below 2px linear-gradient (transparent, #67d48c);
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
