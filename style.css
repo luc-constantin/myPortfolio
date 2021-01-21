@@ -618,7 +618,7 @@ img {
 }
 
 
-@media only screen and (max-width:375px) {
+@media (max-width:395px) {
 
     header,
     header.sticky {
@@ -626,7 +626,7 @@ img {
     }
 
     .banner {
-        padding: 150px 20px 100px;
+        padding: 400px 20px 100px;
     }
 
     .menu.active {
