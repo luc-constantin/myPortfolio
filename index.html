@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Luc's Portfolio | Accolades .Dev</title>
+</head>
+<body>  
+    
+<header>
+    <a href="#" class="logo">Luc Constantin</a> 
+    <div class="toggle active" onclick="toggleMenu()"></div>
+    <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#services" onclick="toggleMenu()">Technologies</a></li>
+        <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+        <li><a href="http://blog.accolades.dev">Blog</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+ </header>
+ <section class="banner" id="home">
+    <div class="textBx">
+        <h2>Hi👋 I'm <br><span>Luc</span></h2>   
+      <div class="typewriter"> 
+        <h3>a Frontend Developer located in Spain</h3>
+
+      </div>
+        <a href="#about" class="btn">Find out more</a>
+    </div>
+ </section>
+ <button  id="topBtn" onclick="topFunction()" title="Go to top">Top</button>
+
+ <section class="#about" id="about">
+     <div class="heading">
+         <h2>About Me</h2>
+     </div>
+     <div class="content">
+        <div class="contentBx w50">
+            <h3>I Bring Your Business to Life Online</h3>
+            <h2>
+                <em>
+                    I am working with the latest technologies to bring value to your business 
+                and help you increase your revenue by building responsive, beautiful, 
+                aesthetics and intuitive websites.
+                </em>
+            </h2>
+        </div>
+        <div class="w50">
+            <img src="work.jpg" class="img">
+        </div>
+     </div>
+</section>
+
+<section class="services" id="services">
+    <div class="heading white">
+        <h2>Technologies I Work With</h2>
+    </div>
+    <div class="content">
+        <div class="servicesBx">
+            <img src="iconHTML.png" />
+            <h2>HTML</h2>
+            <p></p>
+        </div>
+        <div class="servicesBx">
+            <img src="iconCSS.png" />
+            <h2>CSS</h2>
+            <p></p>
+        </div>
+        <div class="servicesBx">
+            <img src="iconJS.png" />
+            <h3>JavaScript</h3>
+            <p></p>
+    </div>        
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="php.png" />
+                <h2>PHP</h2>
+                <p></p>
+            </div>
+            <div class="servicesBx">
+                <img src="mysql.png" />
+                <h3>DataBase</h3>
+                <p></p>
+            </div>
+            <div class="servicesBx">
+                <img src="jquery.png" />
+                <h2>jQuery</h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="bootstrap.png" />
+                <h3>Bootstrap</h3>
+                <p></p>
+            </div>
+            <div class="servicesBx">
+                <img src="git.png" />
+                <h2>Git</h2>
+                <p></p>
+            </div>
+            <div class="servicesBx">
+                <img src="figma.png" />
+                <h2>Figma</h2>
+                <p></p>
+            </div>
+        </div>
+           
+                
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Latest Projects</h2><br>
+            <p>Latest projects programmed in HTML, CSS 
+                JavaScript.</p>
+        <div class="content">
+            <div class="workBx" >
+                <p>Filter Photo Application</p>
+                <a href="https://luc-dc.github.io/Filter-image-App/">
+                <img src="project1.png" alt="imageFilterApp"></a>
+            </div>
+            <div class="workBx">
+                <p>Guess the Number Game</p>
+                <a href="https://luc-dc.github.io/Guess-the-number-version-2/">
+                <img src="project2.png" alt="GuessTheNumberGame"></a>
+            </div>
+            <div class="workBx">
+                <p>Running Tracker Application</p>
+                <a href="https://codepen.io/Luc-Constantin/full/ExKzryN">
+                <img src="project3.png" alt="RunningTracker"></a>
+            </div>
+            <div class="workBx">
+                <p>Image Memory Match Game</p>
+                <a href="https://luc-dc.github.io/Picture-memory-game/">
+                <img src="project4.png" alt="imageMemoryGame"></a>      
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">More</a>
+        </div> 
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact</h2><br>
+            <p>You can write me a message or you can send me an email! 
+            </p>
+        </div>
+        <div class="contentInfo">
+            
+            <div class="formBx">
+                <form>
+                    <h3>Message</h3>
+                    <input type="text" name="" placeholder="Your Name">
+                    <input type="email" name="" placeholder="Your email">
+                    <textarea placeholder="Your message" cols="30" rows="5"></textarea>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+        <div>
+            <div class="contactInfo">
+                <h3>Contact me via email</h3>
+                <div class="contactInfoBx">
+                    
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                         <div>
+                         <p class="mail"><a href="mailto: accolades.dev@gmail.com">Click here to send Me an email!</a></p>
+                         </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    </section>
+    <section class="social">
+        <div class="socialMedia">
+            <h4>Social Media</h4>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/luc-constantin/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/accolades_dev/" class="fa fa-instagram"></a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <footer>
+        <div class="footer">
+            <p>Coded with ♡ by<a href="https://accolades.dev/"> 
+                Luc Constantin </a>All rights reserved &copy;
+              <script>document.write(new Date().getFullYear())
+              </script>
+            </p>
+         </div>
+ </footer>
+
+<script src="script.js"></script>
+ <!-- cookies consent -->
+ <script> 
+    window.cookieconsent.initialise ({
+"palette": {
+"popup": {
+ "background": "#000"
+},
+"button": {
+ "background": "#83d8a6",
+ "text": "#ffffff" 
+}
+},
+"type": "opt-out",
+"content": {
+"message": "This web uses cookies to enhance a better experience to user.",
+"dismiss": "Agree",
+"deny": "Deny",
+"link": "Learn more"
+}
+});
+  </script>
+
+
+</body>
+</html>
