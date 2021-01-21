@@ -55,11 +55,10 @@ section {
     color: #fff;
     font-family: monospace;
     overflow: hidden; /* content is not revealed until the animation */
-    border-right: .20em solid #83d8a6;  /* cursor */
+    border-right: 0.2em solid #83d8a6;  /* cursor */
     white-space: nowrap; 
     margin: 0 auto; 
-    letter-spacing: .15em;
-    -webkit-box-reflect: below 5px linear-gradient (transparent, #67d48c);
+    letter-spacing: 0.1em;
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
@@ -570,7 +569,6 @@ img {
         justify-content: center;
         align-items: center;
         font-size: 24px;
-
     }
 
     .contactInfo .contactInfoBx .mail a:hover {
@@ -596,7 +594,18 @@ img {
         background-repeat: no-repeat;
         background-size: 30px;
         cursor: pointer;
-    }     
+    } 
+    .formBx form input[type="submit"] {
+        max-width: 100px;
+        background: #222;
+        cursor: pointer;
+        color: #83d8a6;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 700;
+        box-shadow: 0 1px 5px rgb(202, 202, 202);
+    }    
 }
 
 @media (max-width: 600px) {
@@ -609,10 +618,61 @@ img {
         padding: 150px 20px 100px;
     }
 
+    .menu.active {
+        left: 0;
+    }
+    .formBx form input[type="submit"] {
+        max-width: 100px;
+        background: #222;
+        cursor: pointer;
+        color: #83d8a6;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 700;
+        box-shadow: 0 1px 5px rgb(202, 202, 202);
+    } 
+    .contactInfo .contactInfoBx .mail a{
+        text-align: center;
+    }  
 }
-.menu.active {
-    left: 0;
+
+
+@media only screen and (max-width:400px) {
+
+    header,
+    header.sticky {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .banner {
+        padding: 100px 20px 500px;
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    .section {
+        padding:10px 50px;
+    }
+
+    .banner {
+        padding: 150px 50px 100px;
+    }
+
+    .banner h2 {
+        font-size: 1.5em;
+        padding: 150px 10px 20px;
+       
+    }
+
+    .contactInfo .contactInfoBx .mail a{
+        text-align: center;
+    }
+
 }
+
 
 
 
