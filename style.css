@@ -468,7 +468,10 @@ img {
         transition: 0.7s;
         z-index: 999;
     }
-
+    
+       .menu.active {
+        left: 0;
+    }
 
     header ul li a {
         color: #fff;
