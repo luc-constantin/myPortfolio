@@ -1,8 +1,8 @@
 # My Portfolio 
 ## You can see the project [here](https://luc-constantin.github.io/myPortfolio/ "Luc Constantin's Portfolio")
 
-## Hard-coded Portfolio
-### In this project I used the following: HTML5, CSS3 and JavaScript and bits of Bootstrap
+## Hand-coded Portfolio
+### In this project I used the following: HTML5, CSS3, JavaScript and bits of Bootstrap
 ## HTML
  * Sections
  * SEO Friendly
@@ -16,3 +16,5 @@
 ## JavaScript
  * Back to top button
  * Toggle menu
+## Bootstrap
+ * Icons
