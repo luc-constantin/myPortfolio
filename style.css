@@ -124,12 +124,33 @@ section {
     box-shadow: 0 1px 5px  #575757;
 }
 
+.download .btn {
+    position: relative;
+    background: #111;
+    display: inline-block;
+    color: #83d8a6;
+    margin-top: 10px ;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    box-shadow: 0 1px 5px  #575757;
+}
+
 .btn:hover {
     color: #111;
     background-color: #83d8a6;
     box-shadow: 0 1px 5px  #111;
 }
 
+.download .btn:hover {
+    color: #111;
+    background-color: #83d8a6;
+    box-shadow: 0 1px 5px  #111;
+}
 
 header {
     position: fixed;
@@ -536,9 +557,16 @@ img {
         font-size: 15px;
         letter-spacing: 1px;
         padding: 10px 20px;
-        margin-left: 20px;
+        margin: 30px 0px -1px 0px;
     }
 
+    .download .btn {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+        margin: 30px 0px 40px 0px;
+    }
+    
     .heading h2 {
         font-size: 24px;
     }
