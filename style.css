@@ -124,6 +124,14 @@ section {
     box-shadow: 0 1px 5px  #575757;
 }
 
+.btn:hover {
+    color: #111;
+    background-color: #83d8a6;
+    box-shadow: 0 1px 5px #111;
+    transition: 1s;
+    transition-delay: 0,55s;
+}
+
 .download .btn {
     position: relative;
     background: #111;
@@ -140,16 +148,12 @@ section {
     box-shadow: 0 1px 5px  #575757;
 }
 
-.btn:hover {
-    color: #111;
-    background-color: #83d8a6;
-    box-shadow: 0 1px 5px  #111;
-}
-
 .download .btn:hover {
     color: #111;
     background-color: #83d8a6;
     box-shadow: 0 1px 5px  #111;
+    transition: 1s;
+    transition-delay: 0,55s;
 }
 
 header {
@@ -471,7 +475,22 @@ img {
     
 .contactInfo .contactInfoBx .mail a:hover {
         color: #83d8a6;
-    }
+}
+
+.fa {
+    text-decoration:none;
+    color: #fff;
+    font-size: 50px!important;
+}
+
+
+
+.fa:hover {
+    color: #83d8a6;
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0,55s;
+}
 
 .socialMedia {
     color:  #83d8a6;
@@ -733,6 +752,8 @@ img {
   #topBtn:hover {
     background-color: #555;
     color: #83d8a6;
+    transition: 1s;
+    transition-delay: 0,55s;
   }
 
 .social {
