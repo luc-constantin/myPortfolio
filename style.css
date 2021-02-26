@@ -522,11 +522,14 @@ img {
     header.sticky {
         padding: 20px 50px;
         z-index: 1000;
-        background-color: #000;
+        background-color: rgb(17, 17, 17);
+    }
+    html{
+    scroll-behavior: smooth;
     }
     .menu {
         position: fixed;
-        top: 65px;
+        top: 80px;
         left: -100%;
         display: block;
         padding: 100px 50px;
@@ -766,8 +769,7 @@ img {
     text-decoration: none;
     background-color: #111;
     color: #fff;
-    height: f;
-    padding-bottom: 30px;
+    padding: 20px 0px 20px 0px;
     flex: auto;
     position:relative;
 }
