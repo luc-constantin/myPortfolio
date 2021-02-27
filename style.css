@@ -372,11 +372,15 @@ img {
 }
 
 .formBx {
-    min-width: 85%;
+    min-width:100%;
+    
 }
 .formBx form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .formBx form h3,
@@ -398,11 +402,12 @@ img {
     outline: none;
     background: rgb(202, 202, 202);
     resize: none;
+    min-width:70%;
 }
 
 .formBx form textarea {
     min-height: 200px;
-    
+    min-width: 70%;
 }
 
 .formBx form input::placeholder,
@@ -420,12 +425,15 @@ img {
     font-size: 16px;
     font-weight: 700;
     box-shadow: 0 1px 5px  rgb(202, 202, 202);
+    min-width:25%;
 }
 
 .formBx form input[type="submit"]:hover {
     color: #222;
     background-color: #83d8a6;
     box-shadow: 0 1px 5px #000;
+    transition-delay: 0,55s;
+    text-shadow: 0px 1px 1px #83d8a6;
 }
 
 .contactInfoBx {
