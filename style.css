@@ -459,6 +459,7 @@ img {
 .contactInfo h3 {
     text-align: center;
     margin-top: 10px;
+    color: #fff;
 }
 .contactInfo .contactInfoBx .icon {
     min-width: 20px;
