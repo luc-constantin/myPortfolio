@@ -9,12 +9,14 @@
  * Sections
  * SEO Friendly
  * Semantic
+ * Links to Projects built in HTML, CSS and JS
 ## CSS 3
  * Scroll smooth behavior
  * Animations
  * Buttons Hover
  * Shadows
  * typewritting effect
+ * 
 ## JavaScript
  * Back to top button
  * Toggle menu
