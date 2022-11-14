@@ -1,5 +1,6 @@
 # My Portfolio 
-![Portfolio built in HTML, CSS and JS](https://github.com/luc-constantin/myPortfolio/issues/1#issue-1448353153.png)
+![Portfolio](https://user-images.githubusercontent.com/56940002/201709755-2e73b7cb-9d07-442d-9379-7e5f97f15e68.png)
+
 ## You can see the project [here](https://luc-constantin.github.io/myPortfolio/ "Luc Constantin's Portfolio")
 
 ## HTML, CSS, JavaScript Portfolio 
